@@ -34,15 +34,6 @@
     width: 100%;
 }
 
-.respmenu li {
-    color: inherit;
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-    max-width: 200px;
-}
-
-
 .respmenu input[type="checkbox"],
 .respmenu .fa-bars,
 .respmenu .fa-times {
@@ -70,9 +61,27 @@
     color: #ff4b63;
     position: relative;
     min-height: 48px;
-    margin-right: 20px;
+    margin-right: 13px;
+    text-decoration: none;
 }
 
+.respmenu li {
+    display: block;
+    padding: 10px 20px;
+    max-width: 200px;
+    transition: color 0.3s ease-in-out;
+}
+
+.respmenu a {
+    text-decoration: none;
+    color: #2d2d2d;
+    font-weight: 600;
+}
+
+.nav li:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+}
 .respmenu nav {
     margin-right: -145px;
     margin-top: 50px;
@@ -89,4 +98,16 @@
 
 .respmenu input:not(:checked)~.fa-times {
     display: none;
+}
+
+.download-button {
+    border: 2px solid #ff4b63;
+    color: #ff4b63;
+    border-radius: 20px;
+    height: 40px;
+    width: 147px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 10px;
 }
