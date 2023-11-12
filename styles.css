@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:17px;
+    margin-top: 17px;
 }
 
 .logo {
@@ -36,6 +36,14 @@
 
 .logo img {
     width: 100%;
+}
+
+.respmenu {
+    color: #ff4b63;
+    position: relative;
+    min-height: 48px;
+    text-decoration: none;
+    box-shadow: -3px 3px 30px rgba(0, 0, 0, 0.2);
 }
 
 .respmenu input[type="checkbox"]:first-child,
@@ -62,35 +70,33 @@
     opacity: 0;
 }
 
-.respmenu {
-    color: #ff4b63;
-    position: relative;
-    min-height: 48px;
-    text-decoration: none;
-    box-shadow: -3px 3px 30px rgba(0, 0, 0, 0.2);
-}
-
 .respmenu li {
     display: block;
     padding: 10px 20px;
     max-width: 200px;
     transition: color 0.3s ease-in-out;
+    color: #333;
+}
+
+.respmenu nav {
+    margin-right: -199px;
+    margin-top: 50px;
 }
 
 .respmenu a {
     text-decoration: none;
     color: #2d2d2d;
     font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.respmenu a:hover {
+    color: #ff4b63;
 }
 
 .nav li:hover {
     color: #117964;
     transition: color 0.3s ease-in-out;
-}
-
-.respmenu nav {
-    margin-right: -199px;
-    margin-top: 50px;
 }
 
 .respmenu input:checked~nav {
@@ -106,28 +112,17 @@
     display: none;
 }
 
-.download-button {
-    border: 2px solid #ff4b63;
-    color: #ff4b63;
-    border-radius: 20px;
-    height: 40px;
-    width: 147px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: transparent;
-    margin-top: 10px;
-}
-
 .dropdown input[type="checkbox"] {
- width:0px;
- height: 0px;
- margin-left: -2px;
+    width: 0px;
+    height: 0px;
+    margin-left: -2px;
 
 }
+
 .dropdown label,
 .dropdown i {
     color: black;
-        font-weight: 700;
+    font-weight: 700;
 }
 
 .dropdown input:checked~.dropdown-menu {
@@ -143,6 +138,19 @@
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
 }
+
 .dropdown-menu li {
     font-size: 12px;
+}
+
+.download-button {
+    border: 2px solid #ff4b63;
+    color: #ff4b63;
+    border-radius: 20px;
+    height: 40px;
+    width: 147px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 10px;
 }
