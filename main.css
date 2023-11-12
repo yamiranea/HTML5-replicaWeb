@@ -1,7 +1,11 @@
+.banner {
+    width: 100%;
+}
+
 .banner-title h1 {
     font-size: 23px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .banner-description p {
@@ -9,5 +13,54 @@
     text-align: center;
     width: 90%;
     margin: auto;
-    
-} 
+    margin-bottom: 15px;
+}
+
+.banner-buttons {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.baner-buttons_mac {
+    height: 18px;
+    width: 114px;
+    border: 2px solid #ff4b63;
+    border-radius: 23px;
+    margin-left: 25px;
+    background-color: #ff4b63;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.baner-buttons_mac i {
+    margin-right: 8px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.baner-buttons_android {
+    height: 18px;
+    width: 114px;
+    border: 2px solid #ff4b63;
+    border-radius: 23px;
+    margin-right: 25px;
+    background-color: #ff4b63;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.baner-buttons_android i {
+    margin-right: 8px;
+    background-color: transparent;
+    font-size: 16px;
+}
