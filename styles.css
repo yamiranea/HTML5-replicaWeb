@@ -160,11 +160,10 @@ width: 100%;
     font-weight: bold;
     background-color: transparent;
     margin-top: 10px;
-    transition: background-color 1s, color 0.3s
+    transition: box-shadow 0.3s, transform 0.3s
 }
 
 .download-button:active {
-    background-color: #ff4b63;
-    color: white;
-    
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
 }

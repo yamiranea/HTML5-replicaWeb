@@ -3,64 +3,79 @@
 }
 
 .banner-title h1 {
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .banner-description p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     width: 90%;
     margin: auto;
     margin-bottom: 15px;
+    color: #6e6e6e;
 }
 
 .banner-buttons {
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 .baner-buttons_mac {
-    height: 18px;
-    width: 114px;
+    height: 28px;
+    width: 294px;
     border: 2px solid #ff4b63;
-    border-radius: 23px;
-    margin-left: 25px;
+    border-radius: 57px;
     background-color: #ff4b63;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s
 }
 
 .baner-buttons_mac i {
     margin-right: 8px;
     background-color: transparent;
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.baner-buttons_mac:active {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
 }
 
 .baner-buttons_android {
-    height: 18px;
-    width: 114px;
+    height: 28px;
+    width: 294px;
     border: 2px solid #ff4b63;
-    border-radius: 23px;
-    margin-right: 25px;
+    border-radius: 57px;
     background-color: #ff4b63;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s
 }
 
 .baner-buttons_android i {
     margin-right: 8px;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 20px;
+}
+
+.baner-buttons_android:active {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
 }
