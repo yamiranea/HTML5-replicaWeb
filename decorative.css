@@ -1,0 +1,18 @@
+.decorative-container_superior {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+
+.decorative-container_green {
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+}
+
+.decorative-content_yellow {
+    width: 17px;
+    height: 14px;
+    margin-right: 22px;
+}
