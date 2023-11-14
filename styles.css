@@ -131,7 +131,7 @@ header {
 }
 
 nav ul li a {
-    color: #2d2d2d;
+    color: #2c2c2c;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -152,7 +152,7 @@ nav ul li a:hover {
 
 .dropdown label,
 .dropdown i {
-    color: black;
+    color: #2c2c2c;
     font-weight: 700;
 }
 
@@ -197,7 +197,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 200px;
+    height: 69px;
 }
 
 .decorative-container_white-left {
@@ -207,6 +207,10 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
+}
+
+.decorative-container_white-left img {
+    background-color: transparent;
 }
 
 .decorative-content_blue {
@@ -221,7 +225,15 @@ nav ul li a:hover {
 }
 
 .decorative-container_white-right {
-    width: 10px;
-    height: 10px;
-    margin-left: 15px;
+    width: 210px;
+    height: 197px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -133px;
+    margin-top: -166px;
+    background-color: transparent;
+}
+
+.decorative-container_white-right img {
+    background-color: transparent;
 }
