@@ -1,0 +1,65 @@
+.reviews_title h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+}
+
+.reviews-container_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.reviews-container_cards-one,
+.reviews-container_cards-two,
+.reviews-container_cards-three,
+.reviews-container_cards-four,
+.reviews-container_cards-five,
+.reviews-container_cards-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.reviews-container_cards-one-rating,
+.reviews-container_cards-two-rating,
+.reviews-container_cards-three-rating,
+.reviews-container_cards-four-rating,
+.reviews-container_cards-five-rating,
+.reviews-container_cards-six-rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviews-container_cards-one-rating, 
+.reviews-container_cards-two-rating,
+.reviews-container_cards-three-rating,
+.reviews-container_cards-four-rating,
+.reviews-container_cards-five-rating,
+.reviews-container_cards-six-rating i{
+    display: inline-flex;
+    color: #ffc107;
+}
+
+
+.reviews-divider {
+    border: 1px solid #e0e0e0;
+    width: 35%;
+    margin-top: 10px;
+}
+
+.reviews-container_cards-one-paragraph,
+.reviews-container_cards-two-paragraph,
+.reviews-container_cards-three-paragraph,
+.reviews-container_cards-four-paragraph,
+.reviews-container_cards-five-paragraph,
+.reviews-container_cards-six-paragraph {
+    width: 50%;
+    text-align: center;
+    color: #777777;
+    font-style: italic;
+}
