@@ -33,6 +33,82 @@ header {
     height: 290px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .respmenu {
+        display: flex;
+        position: sticky;
+        box-shadow: none;
+        background-color: transparent;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        height: auto;
+        width: auto;
+    }
+
+    .respmenu nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .respmenu input[type="checkbox"]:first-child,
+    .respmenu .fa-bars,
+    .respmenu .fa-times {
+        display: none;
+    }
+
+    .respmenu ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 121px;
+        margin-top: -10px;
+    }
+
+    .respmenu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .download-button {
+        margin-left: 10px;
+    }
+    
+    .banner-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .banner-title h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    .banner-description p {
+        font-size: 20px;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .banner-image img {
+        height: 450px;
+    }
+
+    .web-goals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 50px;
+    }
+}
+
 .respmenu input[type="checkbox"]:first-child,
 .respmenu .fa-bars,
 .respmenu .fa-times {
@@ -67,6 +143,7 @@ header {
 .respmenu nav {
     margin-right: -199px;
     margin-top: 50px;
+    padding-bottom: 20px
 }
 
 .respmenu a {
@@ -153,6 +230,7 @@ nav ul li label[for="extra"]:hover i {
     font-weight: bold;
     background-color: transparent;
     margin-top: 10px;
+    margin-left: 10%;
     transition: box-shadow 0.3s, transform 0.3s
 }
 

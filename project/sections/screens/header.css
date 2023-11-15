@@ -153,6 +153,7 @@ nav ul li label[for="extra"]:hover i {
     font-weight: bold;
     background-color: transparent;
     margin-top: 10px;
+    margin-left: 10%;
     transition: box-shadow 0.3s, transform 0.3s
 }
 

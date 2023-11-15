@@ -2,7 +2,7 @@ const counterElements = document.querySelectorAll('.counter');
 
 const targetNumbers = [231, 385, 159, 127, 211];
 
-const speed = 3;
+const speed = 2;
 
 function animateCounter(counterElement, targetNumber) {
   let currentNumber = 0;
