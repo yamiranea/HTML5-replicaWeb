@@ -80,3 +80,113 @@
     background-color: transparent;
     width: 50%;
 }
+
+.reviews-container_metrics {
+    color: #e7eff6;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.reviews-container_metrics-users,
+.reviews-container_metrics-issues,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.reviews-container_metrics-users-img {
+    color: #6e42c1d8;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-issues-img {
+    color: #1ebc8d;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-goodrevs-img {
+    color: #ff556e;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-cases-img {
+    color: #ffb310;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-orders-img {
+    color: #50b9e7;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-users-img,
+.reviews-container_metrics-issues-img,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders i {
+    background-color: transparent;
+}
+
+.counter {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    background-color: transparent;
+}
+.reviews-container_metrics-users,
+.reviews-container_metrics-issues,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders h4 {
+    font-weight: 500;
+    color: #777777;
+}
