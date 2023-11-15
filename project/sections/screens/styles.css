@@ -1,0 +1,192 @@
+.reviews_title h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+}
+
+.reviews-container_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+
+.reviews-container_cards-one,
+.reviews-container_cards-two,
+.reviews-container_cards-three,
+.reviews-container_cards-four,
+.reviews-container_cards-five,
+.reviews-container_cards-six {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.reviews-container_cards-one-rating,
+.reviews-container_cards-two-rating,
+.reviews-container_cards-three-rating,
+.reviews-container_cards-four-rating,
+.reviews-container_cards-five-rating,
+.reviews-container_cards-six-rating {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reviews-container_cards-one-rating, 
+.reviews-container_cards-two-rating,
+.reviews-container_cards-three-rating,
+.reviews-container_cards-four-rating,
+.reviews-container_cards-five-rating,
+.reviews-container_cards-six-rating i{
+    display: inline-flex;
+    color: #ffc107;
+}
+
+
+.reviews-divider {
+    border: 1px solid #e0e0e0;
+    width: 35%;
+    margin-top: 10px;
+}
+
+.reviews-container_cards-one-paragraph,
+.reviews-container_cards-two-paragraph,
+.reviews-container_cards-three-paragraph,
+.reviews-container_cards-four-paragraph,
+.reviews-container_cards-five-paragraph,
+.reviews-container_cards-six-paragraph {
+    width: 50%;
+    text-align: center;
+    color: #777777;
+    font-style: italic;
+}
+
+.reviews-container_partners {
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.reviews-container_partners img {
+    background-color: transparent;
+    width: 50%;
+}
+
+.reviews-container_metrics {
+    color: #e7eff6;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.reviews-container_metrics-users,
+.reviews-container_metrics-issues,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.reviews-container_metrics-users-img {
+    color: #6e42c1d8;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-issues-img {
+    color: #1ebc8d;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-goodrevs-img {
+    color: #ff556e;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-cases-img {
+    color: #ffb310;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-orders-img {
+    color: #50b9e7;
+    font-size: 45px;
+    border-radius: 52px;
+    height: 95px;
+    width: 95px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -26px;
+}
+
+.reviews-container_metrics-users-img,
+.reviews-container_metrics-issues-img,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders i {
+    background-color: transparent;
+}
+
+.counter {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    background-color: transparent;
+}
+.reviews-container_metrics-users,
+.reviews-container_metrics-issues,
+.reviews-container_metrics-goodrevs,
+.reviews-container_metrics-cases,
+.reviews-container_metrics-orders h4 {
+    font-weight: 500;
+    color: #777777;
+}

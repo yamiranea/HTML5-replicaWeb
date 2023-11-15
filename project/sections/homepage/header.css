@@ -1,0 +1,240 @@
+header {
+    height: 93px;
+}
+
+.container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.logo {
+    width: 100px;
+    display: flex;
+    min-width: 100px;
+    min-height: 40px;
+    align-items: start;
+    margin-top: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.respmenu {
+    color: #ff4b63;
+    position: sticky;
+    min-height: 48px;
+    text-decoration: none;
+    box-shadow: -3px 3px 30px rgba(0, 0, 0, 0.2);
+    height: 290px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .respmenu {
+        display: flex;
+        position: sticky;
+        box-shadow: none;
+        background-color: transparent;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        height: auto;
+        width: auto;
+    }
+
+    .respmenu nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .respmenu input[type="checkbox"]:first-child,
+    .respmenu .fa-bars,
+    .respmenu .fa-times {
+        display: none;
+    }
+
+    .respmenu ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 121px;
+        margin-top: -10px;
+    }
+
+    .respmenu li {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .download-button {
+        margin-left: 10px;
+    }
+    
+    .banner-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .banner-title h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+
+    .banner-description p {
+        font-size: 20px;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .banner-image img {
+        height: 450px;
+    }
+
+    .web-goals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 50px;
+    }
+}
+
+.respmenu input[type="checkbox"]:first-child,
+.respmenu .fa-bars,
+.respmenu .fa-times {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 48px;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.respmenu .fa-bars,
+.respmenu .fa-times {
+    font-size: 32px;
+    pointer-events: none;
+}
+
+.respmenu input[type="checkbox"] {
+    opacity: 0;
+}
+
+.respmenu li {
+    display: block;
+    padding: 10px 20px;
+    max-width: 200px;
+}
+
+.respmenu nav {
+    margin-right: -199px;
+    margin-top: 50px;
+    padding-bottom: 20px
+}
+
+.respmenu a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.respmenu input:checked~nav {
+    margin-right: 0px;
+    transition: margin-right .5s .1s;
+}
+
+.respmenu input:checked~.fa-bars {
+    display: none;
+}
+
+.respmenu input:not(:checked)~.fa-times {
+    display: none;
+}
+
+nav ul li a {
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ff4b63;
+}
+
+nav ul li label[for="extra"] {
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav ul li label[for="extra"]:hover,
+nav ul li label[for="extra"]:hover i {
+    color: #ff4b63;
+}
+
+.dropdown {
+    width: auto;
+}
+
+.dropdown input[type="checkbox"] {
+    width: 0px;
+    height: 0px;
+    margin-left: -2px;
+}
+
+.dropdown label,
+.dropdown i {
+    color: #2c2c2c;
+    font-weight: 700;
+}
+
+.dropdown input:checked~.dropdown-menu {
+    height: auto;
+
+}
+
+.dropdown input:not(:checked)~.dropdown-menu {
+    height: 0px;
+}
+
+.dropdown-menu {
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.dropdown-menu li {
+    font-size: 12px;
+}
+
+.download-button {
+    border: 2px solid #ff4b63;
+    color: #ff4b63;
+    border-radius: 20px;
+    height: 40px;
+    width: 147px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 10%;
+    transition: box-shadow 0.3s, transform 0.3s
+}
+
+.download-button:active {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
