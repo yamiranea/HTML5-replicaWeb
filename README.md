@@ -1,4 +1,4 @@
-# <h2 style="color #8d63d6">p2-prueba-tecnica</h2>
+# <h1 style="color #8d63d6">p2-prueba-tecnica</h1>
 
 Second practical FemCoders bootcamp project from Factoría F5.
 Web replica based on mockups.
