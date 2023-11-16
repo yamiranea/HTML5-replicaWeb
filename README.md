@@ -1,13 +1,13 @@
-# <h2 style="color #8d63d6">f5-p2-prueba-tecnica</h2>
+# f5-p2-prueba-tecnica
 
 Second practical FemCoders bootcamp project from Factoría F5.
 Web replica based on mockups.
 
-<strong>Goal:</strong>Exactly replicate a website provided through mockup images, maintaining the same styles of the proposal.
+Goal: Exactly replicate a website provided through mockup images, maintaining the same styles of the proposal.
 
-<strong>Deployment:</strong> <a href="https://project-p2-individual.netlify.app//project/sections/homepage/index.html">Replica web live</a>
+Deployment: https://project-p2-individual.netlify.app//project/sections/homepage/index.html
 
-## <h3 style="color #8d63d6">Languajes used</h3>
+## Languajes used
 
 <ul>
    <li>HTML</li>
@@ -15,7 +15,7 @@ Web replica based on mockups.
    <li>Javascript</li>
 </ul>
 
-### <h3>Installation guide</h3>
+## Installation guide
 
 <ol>
     <li>Clone this repository to your computer: <em>https://github.com/yamiranea/p2-prueba-tecnica</em></li>
