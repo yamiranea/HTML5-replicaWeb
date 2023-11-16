@@ -3,7 +3,7 @@
 Second practical FemCoders bootcamp project from Factoría F5.
 Web replica based on mockups.
 
-<strong>Goal</strong>Exactly replicate a website provided through mockup images, maintaining the same styles of the proposal.
+<strong>Goal:</strong>Exactly replicate a website provided through mockup images, maintaining the same styles of the proposal.
 
 <strong>Deployment:</strong> <a href="https://project-p2-individual.netlify.app//project/sections/homepage/index.html">Replica web live</a>
 
